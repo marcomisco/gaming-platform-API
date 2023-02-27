@@ -1,4 +1,4 @@
-https://vercel-gaming.vercel.app/
+Lien Vercel :  https://gaming-platform-api.vercel.app/
 
 ## Getting Started
 
