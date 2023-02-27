@@ -7,8 +7,6 @@ export default function Error() {
       <Head>
         <title>Page Not Found</title>
       </Head>
-
-      <h1>404 - Page Not Found</h1>
       <Link href="/">
         <a>Go back home</a>
       </Link>
