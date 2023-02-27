@@ -13,12 +13,11 @@ import { useRouteLoading } from '../hooks/useRouteLoading';
 export default function Home({ initial }) {
   const router = useRouter();
   const { query } = router;
-
+// filter
   const [filters, setFilters] = useState({
     page: query.page || initialFilters.page,
     search: query.search || initialFilters.search,
     ordering: query.ordering || initialFilters.ordering,
-    platforms: query.platforms || initialFilters.platforms,
   });
 
   const [games, setGames] = useState(initial);
@@ -81,6 +80,6 @@ export async function getServerSideProps({ query: initialQuery }) {
     props: { initial },
   };}
   catch  {
-    console.log('error');
+    console.log(error);
   }
 }
