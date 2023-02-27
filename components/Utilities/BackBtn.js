@@ -9,7 +9,6 @@ export function BackBtn() {
 }
 
 const Button = styled.button`
-
   appearance: none;
   backface-visibility: hidden;
   background-color: white;
