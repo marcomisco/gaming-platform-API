@@ -1,5 +1,32 @@
 Lien Vercel :  https://gaming-platform-api.vercel.app/
 
+Create a web page that displays a list of games, using the rawg api with the following features: (documentation : https://api.rawg.io/docs/#tag/games, you will need to generate an API key)
+
+The games should be displayed in a responsive grid with four columns on desktop and two columns on mobile devices.
+The grid should be displayed in a container of maximum 1440px
+Each game card should display the following properties :
+image
+name
+metacritic score
+available platforms
+Tags (deplayed as tags - maximum 2 displayed)
+Clicking on a game should open a modal window that displays the following properties :
+image
+name
+available platforms
+complete reviews (ratings property in the API)
+games screenshots, in a horyzontal carousel.
+Implement a pagination
+Implement search functionality that allows the user to search for games by name.
+You need to use a modern front-end framework such as React, svelte or Vue.js.
+Bonus points for:
+
+Using Svelte (Framework used in the Decathlon tech stack)
+Adding filtering (name, release date, popularity, rating)
+Implementing client-side caching to reduce the number of API requests.
+Making the design visually appealing and user-friendly.
+
+
 ## Getting Started
 
 First, run the development server:
@@ -16,19 +43,6 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
