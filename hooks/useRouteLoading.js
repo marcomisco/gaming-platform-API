@@ -8,7 +8,7 @@ export function useRouteLoading() {
   useEffect(() => {
     const startLoading = () => setIsLoading(true);
     const stopLoading = () => setIsLoading(false);
-
+  
     router.events.on('routeChangeStart', startLoading);
     router.events.on('routeChangeComplete', stopLoading);
 
