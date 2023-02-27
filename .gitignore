@@ -30,8 +30,6 @@ yarn-error.log*
 
 # api keys
 .env
-
-
 # vercel
 .vercel
 
